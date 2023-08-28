@@ -1,0 +1,247 @@
+<html lang="en">
+  <head>
+    <title>Practice 2</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo.png" rel="icon">
+    <style>
+      table, th, td {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Paragraph and Preformatted Paragraph Tags -->
+    <p>
+      Riffat
+      Ishmal
+      Iqra
+      Saba
+      Sana
+    </p>
+    <pre>
+      Riffat
+      Ishmal
+      Iqra
+      Saba
+      Sana
+    </pre>
+    <!-- Styles -->
+    <h1 style="
+      color: palevioletred;
+      font-size: 20px;
+    ">
+      Inline Styles
+    </h1>
+    <h1 class="header black_background">
+      Class Style 
+    </h1>
+    <h1 id="header">
+      Id Style 
+    </h1>
+
+    <h1
+      id="all"
+      class="all"
+      style="
+        color: red !important;
+        background-color: green;
+      "
+    >
+      All Styles
+    </h1>
+    <b>Bold Text</b>
+    <strong>Bold Text</strong>
+    <i>Italic Text</i>
+    <q>Quotes</q>
+    <em>Emphasized Text</em>
+    <del>Deleted Text</del>
+    <ins>Inserted Text</ins>
+    <mark>Marked Text</mark>
+    <h1>H<sub>2</sub>O</h1>
+    <h1>a<sup>2</sup> + b<sup>2</sup></h1>
+
+    <!-- Nesting -->
+    <ins>
+      <b>
+        <i>
+          <mark>
+            <q>
+              Inserted Text
+            </q>
+          </mark>
+        </i>
+      </b>
+    </ins>
+    <!-- a tag: Links -->
+    <br>
+    <a 
+      href="../Practice_1/index.html"
+    >
+      Navigate to Practice 1
+    </a>
+    <br>
+    <a 
+      href="https://www.google.com"
+      target="_blank"
+    >
+      Navigate to Google
+    </a>
+    <br>
+    <a 
+      href="mailto:danishasim403@gmail.com"
+    >
+      Email to Sir Danish
+    </a>
+    <br>
+    <a 
+      href="tel:9290078601"
+    >
+      Call Sir Danish
+    </a>
+    <br>
+    <a 
+      href="./index.html"
+    >
+      Home
+    </a>
+    <br>
+    <img
+      src="../Practice_1/image1.jpg"
+      alt="Image 1"
+      width="40%"
+    />
+
+    <div>
+      <a
+        href="https://leetcode.com/studyplan/30-days-of-javascript/"
+        target="_blank"
+      >
+        <img
+          src="https://assets.leetcode.com/static_assets/others/%E9%9D%99%E6%80%81%E5%9B%BE.png"
+          alt="leetcodeJS"
+          style="width: 200px;"
+        >
+      </a>
+    </div>
+    <div>
+      <img
+        src="https://assets.leetcode.com/static_assets/others/%E9%9D%99%E6%80%81%E5%9B%BE.png"
+        alt="leetcodeJS"
+        style="width: 200px; height: 200px;"
+        usemap="#leetcode"
+      /> 
+      <map name="leetcode">
+        <area shape="rect" coords="0,50,150,100" href="https:/leetcode.com/" alt="Leetcode" />
+        <area shape="rect" coords="150,150,200,200" href="https://google.com/" alt="Google">
+      </map>
+    </div>
+    <table width="100%" style="text-align: center;">
+      <thead>
+        <th>id</th>
+        <th style="width: 50px; height: 100px;">name</th>
+        <th>email</th>
+        <th>actions</th>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td style="width: 150px; height: 0; text-align: center;">Riffat</td>
+        <td>riffat@gmail.com</td>
+        <td style="text-align: right;">view, edit, delete</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Taj Nizaaami</td>
+        <td>taj@gmail.com</td>
+        <td>view, edit, delete</td>
+      </tr>
+    </table>
+
+    <table style="width: 100%; margin-top: 20px; padding-top: 200px;">
+      <tr>
+        <th>Id</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <th>Marks</th>
+        <td>10</td>
+        <td>22</td>
+        <td>33</td>
+        <td>45</td>
+        <td>55</td>
+        <td>60</td>
+      </tr>
+    </table>
+
+    <table style="text-align: center; width: 100%; margin-top: 20px;">
+      <caption><b><q>Student Details</b></q></caption>
+      <thead>
+        <th>id</th>
+        <th colspan="2">Personal Information</th>
+        <th>actions</th>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td style="width: 150px; height: 0; text-align: center;">Riffat</td>
+        <td>riffat@gmail.com</td>
+        <td style="text-align: right;">view, edit, delete</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Taj Nizaaami</td>
+        <td>taj@gmail.com</td>
+        <td>view, edit, delete</td>
+      </tr>
+    </table>
+    
+    <table style="width: 100%; margin-top: 20px; padding-top: 200px;">
+      <tr>
+        <th rowspan="2">Ids & Results</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>22</td>
+        <td>33</td>
+        <td>45</td>
+        <td>55</td>
+        <td>60</td>
+      </tr>
+    </table>
+    <!-- List -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+    <ul style="list-style-type:circle;">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+    <ol type="A" start="5">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+  </body>
+</html>
