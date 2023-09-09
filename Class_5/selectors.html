@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS_Selectors</title>
+  <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+  <h1>Selectors</h1>
+  <p class="class1">Class Selector .className</p>
+  <p id="id1">Id Selector #idName</p>
+  <pre>Element/Tag Selector tagName</pre>
+  <div>
+    Grouping Selector tagName, tagName, tagName
+    <p class="group1">Group 1</p>
+    <p class="group2">Group 2</p>
+    <p class="group3">Group 3</p>
+  </div>
+  <h1>Combinator Selectors</h1>
+  <div>
+    <h2>CS 1</h2>
+    <h2>CS 2</h2>
+  </div>
+  <div class="parent1">
+    <h2 class="des1">CS 1</h2>
+    <h2 class="des1">CS 2</h2>
+  </div>
+  <div>
+    <div>Adjacent Selector</div>
+    <h1>CS_2 0</h1>
+    <h1>CS_2 1</h1>
+    <p>CS_2 2</p>
+    <p>CS_2 3</p>
+    <p>
+      <h1>H1 tag inside P tag</h1>
+    </p>
+    <h2>H2</h2>
+    <h1>CS_2 1</h1>
+    <p>CS_2 4</p>
+  </div>
+  <div class="class3 class2">
+    Multiple Class Selector
+  </div>
+  <div class="class3">
+    Multiple Class Selector
+  </div>
+  <a
+    href="http://google.com"
+    target="_blank"
+  >
+    Google
+  </a>
+  <br>
+  <a href="./position.html">
+    Positions
+  </a>
+  <img src="./user.png" alt="user_image">
+  <img src="./logo.webp" alt="corvit_image">
+  <div>
+    Pseudo Class Selectors
+    <input type="text" required>
+    <input type="text">
+  </div>
+</body>
+</html>

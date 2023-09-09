@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS_2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="displayInline" style="text-align: left; width: 24%;">
+      <img src="./logo.webp" alt="corvit_logo" width="50px">
+    </div>
+    <div class="displayInline" style="text-align: center; width: 59%;">
+      <span>Home</span>
+      <span>About Us</span>
+      <span>Services</span>
+    </div>
+    <div class="displayInline" style="text-align: right; width: 14%;">
+      <img src="./user.png" alt="user_icon" width="30px">
+    </div>
+  </header> 
+  <h1>CSS_2</h1>
+  <h2>Positions in CSS</h2>
+  <ol>
+    <li>Static</li>
+    <li>Relative</li>
+    <li>Fixed</li>
+    <li>Absolute</li>
+  </ol>
+  <ul>
+    <li>top</li>
+    <li>right</li>
+    <li>bottom</li>
+    <li>left</li>
+  </ul>
+  <h2 style="position: static; top: 50px; left: 100px;">Static</h2>
+  <div style="width: 500px; border: 5px solid white; position: relative;">
+    <h2 style="margin-bottom: 200px; position: relative; top: 150px; left: 100px;">Relative</h2>
+    <h2 style="position: absolute; top: 50px; left: 100px;">Absolute</h2>
+  </div>
+  <div style="width: 500px; border: 5px solid white; position: relative;">
+    <h2 style="margin-bottom: 200px; position: relative; top: 150px; left: 100px;">Relative</h2>
+    <h2 style="position: absolute; top: 50px; left: 100px; background-color: aquamarine; z-index: 1;">Absolute 1</h2>
+    <h2 style="position: absolute; top: 50px; left: 100px; background-color: blueviolet; z-index: 2;">Absolute 2</h2>
+    <h2 style="position: absolute; top: 50px; left: 100px;  background-color: burlywood; z-index: 0;">Absolute 3</h2>
+  </div>
+</body>
+</html>
