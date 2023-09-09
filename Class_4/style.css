@@ -1,0 +1,175 @@
+h1 {
+    color: red;
+  }
+  
+ h2 {
+    font-size: 30px;
+    color: peru;
+  }
+  h3 {
+    font-size: 30px;
+    color: peru;
+  }
+  p {
+    font-size: 30px;
+    color: peru;
+  } 
+  
+ h2, h3, p {
+    font-size: 30px;
+    color: peru;
+    font-weight: 600;
+  } 
+  
+  /* {
+    font-size: 30px;
+    color: peru !important;
+    font-weight: 600;
+  } */
+  
+  body {
+    font-size: 30px;
+    color: peru;
+    font-weight: 600;
+  }
+  
+  .color {
+    color: black;
+    color: #0a3db4;
+    color: rgb(68, 0, 150);
+  }
+  
+  .colorOpacity {
+    color: rgba(68, 0, 150, 0.5);
+  }
+  
+  .box {
+    height: 300px;
+    width: 300px;
+    background-color: #0a3db4;
+    /* background-color: rgba(68, 0, 150, 0.5); */
+    opacity: 0.5;
+    color: white;
+  }
+  
+  .textCenter {
+    text-align: center;
+  }
+  
+  .backgroundImage {
+    background-image: url('./image.jpg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; 
+    background-size: 100%;
+  }
+  
+  
+  .hRepeatRectangle {
+    height: 300px;
+  }
+  
+  .vRepeatRectangle {
+    height: 1300px;
+  }
+  
+  .hRectangle {
+    height: 300px;
+  }
+  
+  .whiteColor {
+    color: white !important;
+  }
+  /* rgb values range 0-255 */
+  
+  .border {
+    border-color: #0a3db4;
+    border-width: 5px; 
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 0px;
+    border-left-width: 0px; 
+    border-width: 5px 10px 5px 10px;
+    border-style: groove;
+    border-radius: 10px;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .circle {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #0a3db4;
+    border-radius: 100%;
+  }
+  
+  .margin {
+    margin: 20px;
+  }
+  
+  .padding {
+    padding: 20px;
+  }
+  
+  .textProperties {
+    font-size: 30px;
+    text-align: justify;
+    text-align-last: center;
+    color:rgb(68, 0, 150);
+    font-weight: lighter;
+    font-family: 'Tilt Prism';
+    text-decoration: line-through; 
+    direction: ltr; /* default */
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+  
+  .backgroundBlack {
+    background-color: black;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  .none {
+    display: none;
+    visibility: hidden;
+    display: inline;
+  }
+  
+  span {
+    background-color: #0a3db4;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .inlineBlock {
+    display: inline-block;
+  }
+  
+  .widget {
+    width: 31%;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 0;
+  }
+  
+  a {
+    color: orangered;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: purple;
+    font-size: 50px;
+  }
+  
+  a:active {
+    color: pink;
+    font-size: 50px;
+  }
